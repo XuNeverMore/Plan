@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/menu_white" android:title="白色"
+        app:showAsAction="never"/>
+    <item android:id="@+id/menu_green" android:title="绿色"
+        app:showAsAction="never"/>
+    <item android:id="@+id/menu_blue" android:title="蓝色"
+        app:showAsAction="never"/>
+</menu>

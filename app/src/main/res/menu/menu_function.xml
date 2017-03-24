@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/select_broswer" android:title="查看以往" />
+    <item android:id="@+id/select_jilu" android:title="记录如今"/>
+    <item android:id="@+id/select_readme" android:title="一点说明"/>
+
+</menu>

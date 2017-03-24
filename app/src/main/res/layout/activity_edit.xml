@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_edit"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.nevermore.plan.EditActivity">
+
+    <include layout="@layout/tool_bar" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:id="@+id/ll_img_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tv_content"
+                android:minHeight="100dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/rect_white"
+                android:padding="10dp"
+                android:textColor="#333333"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </ScrollView>
+        <ImageView
+            android:id="@+id/iv_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:background="@drawable/rect_white"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:padding="5dp">
+        <Button
+            android:textColor="#ffffff"
+            android:background="@drawable/rect_red"
+            android:id="@+id/btn_img"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:text="图片" />
+        <EditText
+            android:id="@+id/edit"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:imeOptions="actionDone" />
+        <Button
+            android:textColor="#ffffff"
+            android:background="@drawable/rect_blue"
+            android:id="@+id/btn_save"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:text="保存" />
+    </LinearLayout>
+</LinearLayout>
