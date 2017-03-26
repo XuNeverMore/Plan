@@ -21,18 +21,29 @@
             android:textColor="#333333"
             android:textSize="12sp" />
 
-        <TextView
-            android:textColor="#666666"
-            android:typeface="monospace"
-            android:id="@+id/tv_content"
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textSize="18sp" />
-        <ImageView
-            android:id="@+id/iv_record"
-            android:scaleType="centerInside"
-            android:layout_width="match_parent"
-            android:layout_height="200dp" />
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:src="@mipmap/ic_launcher"
+                android:id="@+id/iv_record"
+                android:scaleType="fitCenter"
+                android:layout_width="150dp"
+                android:layout_height="200dp" />
+            <TextView
+                android:padding="@dimen/dp_10"
+                android:text="xxx"
+                android:textColor="#666666"
+                android:typeface="monospace"
+                android:id="@+id/tv_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp" />
+        </LinearLayout>
+
     </LinearLayout>
 
 

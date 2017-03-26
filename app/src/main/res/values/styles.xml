@@ -17,6 +17,11 @@
         <item name="overlapAnchor">false</item>
     </style>
 
+    <style name="poStyle" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/scale_big</item>
+        <item name="android:windowExitAnimation">@anim/scale_small</item>
+    </style>
+
 
 
 </resources>
